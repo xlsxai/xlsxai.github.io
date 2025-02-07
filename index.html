@@ -9,21 +9,36 @@
             font-family: Arial, sans-serif;
             margin: 0;
             padding: 0;
-            text-align: center;
             background-color: #f4f4f4;
             color: #333;
         }
+        .header {
+            background-color: #000;
+            color: #fff;
+            padding: 20px;
+            text-align: center;
+            font-size: 24px;
+            font-weight: bold;
+        }
+        .nav {
+            text-align: center;
+            padding: 10px;
+            background-color: #222;
+        }
+        .nav a {
+            color: #fff;
+            text-decoration: none;
+            margin: 0 15px;
+            font-size: 16px;
+        }
         .container {
             padding: 40px;
-        }
-        .logo {
-            font-size: 32px;
-            font-weight: bold;
-            color: #000;
+            text-align: center;
         }
         .hero {
-            font-size: 24px;
+            font-size: 28px;
             margin-top: 20px;
+            font-weight: bold;
         }
         .description {
             font-size: 18px;
@@ -44,18 +59,27 @@
             margin-top: 40px;
             font-size: 14px;
             color: #777;
+            text-align: center;
+            padding: 20px;
+            background-color: #222;
+            color: #fff;
         }
     </style>
 </head>
 <body>
+    <div class="header">Aplexity</div>
+    <div class="nav">
+        <a href="#about">About</a>
+        <a href="#services">Services</a>
+        <a href="#contact">Contact</a>
+    </div>
     <div class="container">
-        <div class="logo">Aplexity</div>
         <div class="hero">Innovative Mobile Publishing</div>
         <div class="description">
             We help mobile apps scale profitably through top-tier user acquisition, analytics, and monetization strategies.
         </div>
         <a href="#contact" class="button">Contact Us</a>
-        <div class="footer">&copy; 2025 Aplexity. All rights reserved.</div>
     </div>
+    <div class="footer">&copy; 2025 Aplexity. All rights reserved.</div>
 </body>
 </html>
